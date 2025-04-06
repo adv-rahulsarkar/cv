@@ -11,19 +11,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
+      /* Added styles for the new profile image */
+      .hero-image {
+        text-align: center;
+        margin-bottom: 30px;
+      }
       .profile-image {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         border-radius: 50%;
         object-fit: cover;
-        border: 5px solid #fff;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        margin-bottom: 20px;
+        border: 5px solid #3a86ff;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.2);
       }
+      /* Existing styles remain unchanged */
     </style>
   </head>
   <body>
-  <!-- navgaition menu -->
+  <!-- Navigation Menu -->
   <nav>
     <div class="nav-container">
       <div class="logo" data-aos="zoom-in" data-aos-duration="1100">
@@ -50,11 +55,11 @@
     </div>
   </nav>
 
-  <!-- Home Section with New Profile Image -->
+  <!-- Home Section with Profile Image -->
   <section id="home">
     <div class="main-container">
       <div class="hero-image" data-aos="zoom-in" data-aos-duration="2500">
-        <img src="main1.jpg" alt="Rahul Sarkar" class="profile-image" />
+        <img src="main1.jpg" alt="Rahul Sarkar - Lawyer & Vlogger" class="profile-image" />
       </div>
       <div class="content">
         <h1 data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">Hey I'm <span>Rahul</span></h1>
@@ -84,13 +89,13 @@
     </div>
   </section>
 
-  <!-- About Section (Original Image Kept Here) -->
+  <!-- About Section -->
   <section class="about" id="about">
     <div class="content">
       <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>Who is Rahul?</span></div>
       <div class="about-details">
         <div class="left" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
-          <img src="main1.jpg" alt="Rahul Sarkar" style="max-width: 100%; border-radius: 10px;" />
+          <img src="main1.jpg" alt="Rahul Sarkar" style="width:100%; max-width:400px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1);" />
         </div>
         <div class="right">
           <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">My Background</div>
@@ -113,55 +118,210 @@
     </div>
   </section>
 
-  <!-- Rest of your code remains exactly the same -->
-  <!-- My Skill Section -->
+  <!-- Skills Section -->
   <section class="skills" id="skills">
-    <!-- ... existing skills section code ... -->
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">Skills Reflects Our Knowledge</div>
+          <p data-aos="flip-down" data-aos-duration="1100" data-aos-delay="200">
+            I am a Lawyer now. I know law fundamentals and deep knowledge.
+            I have also skills of Photography, scripting and making videos.
+          </p>
+          <div class="experience" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
+            <div class="num">5</div>
+            <div class="exp">
+              Years Of <br />
+              Experience
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="400">
+            <div class="topic">LLB</div>
+            <div class="per">95%</div>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="500">
+            <div class="topic">Spoken English</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="600">
+            <div class="topic">Vlogging</div>
+            <div class="per">60%</div>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="700">
+            <div class="topic">Photography</div>
+            <div class="per">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- My Services Section -->
+  <!-- Services Section -->
   <section class="services" id="services">
-    <!-- ... existing services section code ... -->
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+          <div class="icon">
+            <i class="fas fa-gavel"></i>
+          </div>
+          <div class="topic">Legal Services</div>
+          <p>Professional legal consultation and representation in various matters</p>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <div class="topic">Photography</div>
+          <p>High-quality photography for events, portraits, and commercial needs</p>
+        </div>
+        <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="300">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Digital Marketing</div>
+          <p>Effective online marketing strategies for business growth</p>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="400">
+          <div class="icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <div class="topic">Vlogging</div>
+          <p>Creative and engaging video content production</p>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+          <div class="icon">
+            <i class="fas fa-pen-fancy"></i>
+          </div>
+          <div class="topic">Content Creation</div>
+          <p>Compelling written and visual content for various platforms</p>
+        </div>
+        <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="600">
+          <div class="icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <div class="topic">Public Speaking</div>
+          <p>Engaging presentations and communication training</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Contact Me section -->
+  <!-- Contact Section -->
   <section class="contact" id="contact">
-    <!-- ... existing contact section code ... -->
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">Have Any Work?</div>
+        <p data-aos="fade-left" data-aos-duration="1100" data-aos-delay="400">
+          If you need legal consultation, photography services, or content creation, 
+          feel free to reach out. I'm available for freelance projects and collaborations.
+        </p>
+        <div class="button" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+          <button onclick="window.location.href='https://wa.link/hwsblp'">Chat</button>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer>
     <div class="text">
       <span>Created By <a href="#">Rahul Sarkar</a> | &#169; 2025 All Rights Reserved</span>
     </div>
   </footer>
 
-  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+  <!-- Back to Top Button -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
+  <!-- Scripts -->
   <script src="script.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init({ offset: 0 });
+    // Initialize AOS animations
+    AOS.init({ 
+      offset: 0,
+      once: true
+    });
 
-    // Get the button
-    let mybutton = document.getElementById("topBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
+    // Back to top button functionality
+    const topButton = document.getElementById("topBtn");
+    
+    window.onscroll = function() {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        topButton.style.display = "block";
       } else {
-        mybutton.style.display = "none";
+        topButton.style.display = "none";
       }
+    };
+
+    function topFunction() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
     }
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+    // Mobile menu functionality
+    function hamburg() {
+      document.querySelector(".dropdown").style.display = "block";
     }
+    
+    function cancel() {
+      document.querySelector(".dropdown").style.display = "none";
+    }
+
+    // Typewriter effect
+    const typewriterText = document.querySelector(".typewriter-text");
+    const professions = ["Lawyer", "Vlogger", "Photographer", "Content Creator"];
+    let i = 0;
+    let j = 0;
+    let currentProfession = [];
+    let isDeleting = false;
+    let isEnd = false;
+
+    function typeWriter() {
+      isEnd = false;
+      typewriterText.innerHTML = currentProfession.join("");
+
+      if (i < professions.length) {
+        if (!isDeleting && j <= professions[i].length) {
+          currentProfession.push(professions[i][j]);
+          j++;
+          typewriterText.innerHTML = currentProfession.join("");
+        }
+
+        if (isDeleting && j >= 0) {
+          currentProfession.pop();
+          j--;
+          typewriterText.innerHTML = currentProfession.join("");
+        }
+
+        if (j == professions[i].length) {
+          isEnd = true;
+          isDeleting = true;
+        }
+
+        if (isDeleting && j === 0) {
+          currentProfession = [];
+          isDeleting = false;
+          i++;
+          if (i == professions.length) i = 0;
+        }
+      }
+      const spedUp = Math.random() * (80 - 50) + 50;
+      const normalSpeed = Math.random() * (300 - 200) + 200;
+      const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed;
+      setTimeout(typeWriter, time);
+    }
+
+    // Start the typewriter effect
+    setTimeout(typeWriter, 1000);
   </script>
 </body>
 </html>
